@@ -31,4 +31,5 @@ node_modules
 comments.json
 
 # Ignore built js files
-public/scripts/build/*
+public/scripts/build/.module-cache/*
+public/scripts/build/*.js
