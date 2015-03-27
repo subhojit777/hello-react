@@ -29,9 +29,9 @@ var CommentBox = React.createClass({
     });
   },
   getInitialState: function() {
-    return {data[]};
+    return {data: []};
   },
-  componentDidMount; function() {
+  componentDidMount: function() {
     this.loadCommentsFromServer();
     setInterval(this.loadCommentsFromServer, this.props.pollInterval);
   },
@@ -47,6 +47,6 @@ var CommentBox = React.createClass({
 });
 
 React.render(
-  <CommentBox url="comment.json" pollInterval={2000} />,
+  <CommentBox url="comments.json" pollInterval={2000} />,
   document.getElementById('content')
 );
