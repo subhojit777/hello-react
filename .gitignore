@@ -32,4 +32,3 @@ comments.json
 
 # Ignore built js files
 public/scripts/build/.module-cache/*
-public/scripts/build/*.js
